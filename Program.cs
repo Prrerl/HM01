@@ -52,7 +52,6 @@
             try
                 Console.WriteLine(arr[n-1, m-1]+ "\n");
             }
-            //Если ловим ошибку выхода за границы массива, работает код из catсh
             catch (Exception) { Console.WriteLine("Таких координат нет\n"); }
 
         }
